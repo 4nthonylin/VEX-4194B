@@ -1,0 +1,12 @@
+VERSION 3.0
+- add ultrasonic sensors, line followers to sensor setup
+- add declarations for autonomous variables, routines and subroutines
+- implement LCD in pre-auton()
+- define autonomous subroutine methods alignBack(), alignLine(), driveNE(), driveNW() etc.
+- add structure to autonomous() task definition
+- new comments
+- add new setDrive() function which allows for four-wheel manual control and diagonal movement for driveNE() etc.
+
+VERSION 3.1
+- reconfigure all ports such that extension cables junctions are corresponding side and motor ports rearranged
+- define autonomous subroutine methods troughMacro()
